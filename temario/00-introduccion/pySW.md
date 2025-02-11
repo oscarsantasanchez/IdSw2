@@ -1,6 +1,6 @@
 # Algunos proyectos de software
 
-## [pySigHor](https://github.com/mmasias/pySigHor)
+## 1997 - [pySigHor](https://github.com/mmasias/pySigHor)
 
 ```
    cloc pySigHor/
@@ -24,7 +24,7 @@ SUM:                            19            465            183           2588
 
 ## HerramientasFinancieras
 
-### [Versión 1](https://github.com/mmasias/HerramientasFinancierasV1)
+### 1997 - [Versión 1](https://github.com/mmasias/HerramientasFinancierasV1)
 
 ```
    cloc HerramientasFinancierasV1/
@@ -46,7 +46,7 @@ SUM:                           119           2950           1392          11820
 
 ```
 
-### [Versión 2](https://github.com/mmasias/HerramientasFinancieras)
+### 1999 - [Versión 2](https://github.com/mmasias/HerramientasFinancieras)
 
 ```
    cloc HerramientasFinancieras
@@ -66,7 +66,7 @@ SUM:                            30           3056            990           7300
 
 ```
 
-## [NutrIber](https://github.com/mmasias/NutrIber)
+## 2003 - [NutrIber](https://github.com/mmasias/NutrIber)
 
 ```
    cloc NutrIber/
@@ -91,7 +91,7 @@ SUM:                            99          10929          54529          29020
 
 
 
-## [QualityCourses](https://github.com/mmasias/pyQualityCourses)
+## 2007 - [QualityCourses](https://github.com/mmasias/pyQualityCourses)
 
 ```
    cloc pyQualityCourses/

@@ -70,7 +70,7 @@ La humanidad gracias a sus herramientas y, en particular, al conocimiento (cienc
 
 |Métrica|Don Quijote de la Mancha|Proyecto de software|
 |-|-|-|
-|**Extensión**|300.000 palabras|Proyecto mediano*: 100.000 lineas y ~3 palabras/línea <br> [Hablando de proyectos...](pySW.md)|
+|**Extensión**|300.000 palabras|Proyecto mediano: 100.000 lineas y ~3 palabras/línea|
 |**Entidades**|*Dulcinea, Sancho Panza*, …​ decenas|*identificadores* …​ centenares|
 |**Autor**|Miguel de Cervantes Saavedra|6-8 personas|
 |**Duración**|18 años|entre 6 meses y años|
@@ -79,7 +79,7 @@ La humanidad gracias a sus herramientas y, en particular, al conocimiento (cienc
 
 </div>
 
-
+> [***Hablando de proyectos...***](pySW.md)
 
 ### Sistemas
 
