@@ -125,7 +125,7 @@ Todo aquello que no sea necesario dar a conocer, no se debe dar a conocer.
 
 `Clase = interfaz + implementación`
 
-<div>
+</div>
 
 Entonces:
 
