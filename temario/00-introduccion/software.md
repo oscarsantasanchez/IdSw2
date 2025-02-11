@@ -17,9 +17,9 @@ La humanidad gracias a sus herramientas y, en particular, al conocimiento (cienc
 
 <div align=center>
 
-
-|Software es la información que suministra el desarrollador al ordenador para que manipule -de forma automática- la información que suministrará el usuario — Brad Cox|![](/images/modelosUML/modelosUML/sistemaDeInformacion.svg)|
-|-|-|
+|Software||
+|:-:|-|
+|**Es la información que suministra el desarrollador al ordenador<br><br>para que manipule -de forma automática-<br><br>la información que suministrará el usuario**<br><br><div align=right>*[Brad Cox](https://keepcoding.io/blog-frr/brad-cox-creador-de-objective-c-in-memoriam/), inventor del [Objetive-C](https://es.wikipedia.org/wiki/Objective-C)*</div>|![](/images/modelosUML/modelosUML/sistemaDeInformacion.svg)|
 
 </div>
 
