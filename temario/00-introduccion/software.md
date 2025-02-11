@@ -15,18 +15,28 @@ La humanidad gracias a sus herramientas y, en particular, al conocimiento (cienc
 
 ## ¿Qué?
 
+<div align=center>
+
 |||
 |-|-|
-Software es la información que suministra el desarrollador al ordenadir para que manipule de forma automática la información que suministrará el usuario — Brad Cox|![](/images/modelosUML/modelosUML/sistemaDeInformacion.svg)
+|Software es la información que suministra el desarrollador al ordenadir para que manipule de forma automática la información que suministrará el usuario — Brad Cox|![](/images/modelosUML/modelosUML/sistemaDeInformacion.svg)|
+
+</div>
 
 ### Naturaleza de Lenguajes y Formatos
 
+<div align=center>
+
 ||||
 |-|-|-|
-Programas en lenguajes de programación (Java, C/C++, …​),|Scripts para la generación de páginas dinámicas en aplicaciones Web (JSP, PHP,…​),|Datos de configuración en diversos formatos (texto libre, XML, JSON, …​)
-Scripts para la creación de las tablas de las bases de datos y su población (SQL),|Presentaciones en lenguajes de formato para aplicaciones Web (HTML, CSS, …​)|Multimedia en formatos de imagen, sonido o video para elementos gráficos en la Interfaz de Usuario (*.png, *.waw, *.mpeg, …​)
+|Programas en lenguajes de programación (Java, C/C++, …​),|Scripts para la generación de páginas dinámicas en aplicaciones Web (JSP, PHP,…​),|Datos de configuración en diversos formatos (texto libre, XML, JSON, …​)|
+|Scripts para la creación de las tablas de las bases de datos y su población (SQL),|Presentaciones en lenguajes de formato para aplicaciones Web (HTML, CSS, …​)|Multimedia en formatos de imagen, sonido o video para elementos gráficos en la Interfaz de Usuario (*.png, *.waw, *.mpeg, …​)|
+
+</div>
 
 ## ¿Para qué?
+
+<div align=center>
 
 ||Capacidad cualitativa|Capacidad cuantitativa|
 |-|-|-|
@@ -37,6 +47,8 @@ Scripts para la creación de las tablas de las bases de datos y su población (S
 
 |![](/images/modelosUML/modelosUML/software.svg)|
 |-|
+
+</div>
 
 ### Sistema de Información
 
@@ -52,6 +64,8 @@ Un sistema de información es un conjunto de elementos orientados al tratamiento
 
 **El trabajo con software es el más complejo que jamás haya emprendido la humanidad** — F. Brooks
 
+<div align=center>
+
 |Métrica|Proyecto de Software|Don Quijote de la Mancha|
 |-|-|-|
 |Extensión|Proyecto mediano: 100.000 lineas y ~3 palabras/línea|300.000 palabras
@@ -61,19 +75,29 @@ Un sistema de información es un conjunto de elementos orientados al tratamiento
 |Coste|Miles de €|"gratis" (en la cárcel)
 |Ámbito|Definido por otra(s) persona(s)|suyo
 
+</div>
+
 ### Sistemas
+
+<div align=center>
 
 |Sistema de software|¿Es complejo?|
 |-|-|
 |Conjunto de clases/módulos relacionándose por herencia, composición, … o interdependientes formando una aplicación. Cada aplicación está delimitada por su entorno tecnologíco-comercial, descrito por su arquitectura del software y requisitos y expresado en su ejecución|Software de una aplicación media (~100.000 líneas de código) tiene una complejidad que excede con creces la capacidad intelectual humana|
 
+</div>
+
 ### Características de los sistemas complejos
+
+<div align=center>
 
 |Estructura jerárquica|Elementos primitivos relativos|Separación de asuntos|Patrones comunes|Formas intermedias estables|
 |-|-|-|-|-|
 |Un sistema complejo está compuesto de subsistemas interrelacionados que a su vez tienen sus propios subsistemas y así hasta que se alcanza algún elemento del más bajo nivel.|La elección de qué componentes en un sistema son primitivos es relativamente arbitraria y suele estar a discreción del observador del sistema|Las intra-conexiones de componentes son más fuertes que las inter-conexiones de componentes. |Los sistemas jerárquicos se componen generalmente de sólo unos pocos tipos diferentes de subsistemas en varias combinaciones y órdenes. |Un sistema complejo que funciona invariablemente se encuentra que ha evolucionado a partir de un sistema sencillo que funcionó. 
 |Los niveles de su jerarquía representan los diferentes niveles de abstracción cada uno construido sobre otro y cada uno comprensible por sí mismo.|.|Este hecho tiene el efecto de separar los componentes con dinámica de alta frecuencia (involucrando la interacción entre componentes) de los de dinámica de baja frecuencia. |Nos encontramos con una gran similitud en la forma de mecanismos compartidos unificando esta vasta jerarquía.|Un sistema complejo diseñado desde cero no funciona y no puede ser remendado para hacer que funcione. 
 |En cada nivel de abstracción, encontramos una colección de elementos que colaboran para proveer servicios a niveles superiores|.|Hay una clara separación de asuntos entre las partes de diferentes niveles de abstracción|.|Hay que comenzar de nuevo, a partir de un sistema sencillo de trabajo
+
+</div>
 
 ***“La observación general es que el principal enemigo de la fiabilidad, y tal vez de la calidad del software en general, es la complejidad”*** - Bertrand Meyer
 
@@ -97,7 +121,11 @@ Un sistema de información es un conjunto de elementos orientados al tratamiento
 
 Todo aquello que no sea necesario dar a conocer, no se debe dar a conocer.
 
+<div align=center>
+
 `Clase = interfaz + implementación`
+
+<div>
 
 Entonces:
 
@@ -108,19 +136,25 @@ Entonces:
 
 #### Modularidad
 
-- “Proceso de descomposición de un sistema en un conjunto de piezas poco acopladas y cohesivas”  [Booch]
+“Proceso de descomposición de un sistema en un conjunto de piezas poco acopladas y cohesivas”  [Booch]
+
+<div align=center>
 
 |Acoplamiento|Cohesión|
 |-|-|
 |El acoplamiento “[...] es la medida de fuerza de la asociación establecida por una conexión entre un módulo -elemento- y otro. El acoplamiento fuerte complica un sistema porque los módulos son más difíciles de comprender, cambiar o corregir por sí mismos si están muy interrelacionados con otros módulos” [Booch, 96]. |“La cohesión mide el grado de conectividad entre los elementos de un solo módulo.” [Booch, 96] |
 |Por tanto, hay que minimizar las dependencias entre módulos|Por tanto, un módulo cohesivo debe tener significado propio por sí mismo agrupando abstracciones lógicamente relacionadas|
 
+---
+
 |Descomponer para||
 |-|-|
-|poder refinar independientemente.
-|crear límites bien definidos.
-|entender algunas partes a la vez en lugar de todas a la vez.
-||***divide et impera***
+|poder refinar independientemente.|
+|crear límites bien definidos.|
+|entender algunas partes a la vez en lugar de todas a la vez.|
+||***divide et impera***|
+
+</div>
 
 Debería ser posible cambiar la implementación de unos módulos sin el conocimiento de la aplicación ni de otros módulos y sin afectar el comportamiento de los otros módulos.
 
@@ -134,6 +168,10 @@ Organización de elementos en niveles de responsabilidad, clasificación o compo
 
 ### Software & Sistemas complejos II
 
+<div align=center>
+
 |Estructura jerárquica|Elementos primitivos relativos|Separación de asuntos|Patrones comunes|Formas intermedias estables|
 |-|-|-|-|-|
 |Gracias a sus jerarquías de herencia, composición, paquetes con clases con atributos y métodos, métodos con sentencias, sentencias con expresiones, …​|Gracias a sus tipos primitivos dependiendo del lenguaje (enteros, cadena de caracteres?, fechas?, …) y los definidos por el usuario|Gracias a la encapsulación y modularidad|Gracias a algunos métodos de clases que corresponden al paso de mensajes a objetos|Gracias a las metodologías iterativas o por culpa de nuevas tecnologías o nuevas necesidades|
+
+</div>
