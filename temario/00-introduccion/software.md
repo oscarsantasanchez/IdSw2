@@ -17,13 +17,13 @@ La humanidad gracias a sus herramientas y, en particular, al conocimiento (cienc
 
 <div align=center>
 
-|||
+
+|Software es la información que suministra el desarrollador al ordenador para que manipule -de forma automática- la información que suministrará el usuario — Brad Cox|![](/images/modelosUML/modelosUML/sistemaDeInformacion.svg)|
 |-|-|
-|Software es la información que suministra el desarrollador al ordenadir para que manipule de forma automática la información que suministrará el usuario — Brad Cox|![](/images/modelosUML/modelosUML/sistemaDeInformacion.svg)|
 
 </div>
 
-### Naturaleza de Lenguajes y Formatos
+### Naturaleza de lenguajes y formatos
 
 <div align=center>
 
@@ -50,9 +50,10 @@ La humanidad gracias a sus herramientas y, en particular, al conocimiento (cienc
 
 </div>
 
-### Sistema de Información
+### Sistema de información
 
-Un sistema de información es un conjunto de elementos orientados al tratamiento y administración de datos e información, organizados y listos para su uso posterior, generados para cubrir una necesidad o un objetivo
+|Conjunto de elementos orientados al tratamiento y administración de datos e información|organizados y listos para su uso posterior|generados para cubrir una necesidad o un objetivo|
+|:-:|:-:|:-:|
 
 - **Gestión** (CRUD), es el tratamiento de la información:
   - **altas** (Create) de información en el sistema
@@ -66,14 +67,14 @@ Un sistema de información es un conjunto de elementos orientados al tratamiento
 
 <div align=center>
 
-|Métrica|Proyecto de Software|Don Quijote de la Mancha|
+|Métrica|Don Quijote de la Mancha|Proyecto de software|
 |-|-|-|
-|Extensión|Proyecto mediano: 100.000 lineas y ~3 palabras/línea|300.000 palabras
-|Entidades|*identificadores* …​ centenares|*Dulcinea, Sancho Panza*, …​ decenas
-|Autor|6-8 personas|Miguel de Cervantes Saavedra
-|Duración|entre 6 meses y años|18 años
-|Coste|Miles de €|"gratis" (en la cárcel)
-|Ámbito|Definido por otra(s) persona(s)|suyo
+|**Extensión**|300.000 palabras|Proyecto mediano: 100.000 lineas y ~3 palabras/línea|
+|**Entidades**|*Dulcinea, Sancho Panza*, …​ decenas|*identificadores* …​ centenares|
+|**Autor**|Miguel de Cervantes Saavedra|6-8 personas|
+|**Duración**|18 años|entre 6 meses y años|
+|**Coste**|"gratis" (en la cárcel)|Miles de €|
+|**Ámbito**|suyo|Definido por otra(s) persona(s)|
 
 </div>
 
@@ -83,7 +84,7 @@ Un sistema de información es un conjunto de elementos orientados al tratamiento
 
 |Sistema de software|¿Es complejo?|
 |-|-|
-|Conjunto de clases/módulos relacionándose por herencia, composición, … o interdependientes formando una aplicación. Cada aplicación está delimitada por su entorno tecnologíco-comercial, descrito por su arquitectura del software y requisitos y expresado en su ejecución|Software de una aplicación media (~100.000 líneas de código) tiene una complejidad que excede con creces la capacidad intelectual humana|
+|Conjunto de clases/módulos relacionándose por herencia, composición, … o interdependientes formando una aplicación.<br><br>Cada aplicación está:<br><br>- Delimitada por su entorno tecnológico-comercial<br>- Descrito por su arquitectura de software y requisitos <br>- Expresado en su ejecución|Software de una aplicación media (~100.000 líneas de código) tiene una complejidad que excede con creces la capacidad intelectual humana|
 
 </div>
 
