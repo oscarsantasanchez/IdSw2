@@ -126,17 +126,18 @@ SUM:                             483          12832          16419          7698
 
 ## Como diría ChatGPT: "en resumen..."
 
-|Año|Proyecto|VB LOC|HTML LOC|Otros LOC|Total LOC|Comentarios|Ratio código/comentarios|
-|-|-|-|-|-|-|-|-|
-|1997|pySigHor|1,916|-|672|2,588|183|10.47|
-|1997|HerramientasFinancieras V1|6,888|4,823|109|11,820|1,381|4.99|
-|1999|HerramientasFinancieras V2|7,281|-|19|7,300|990|7.35|
-|2003|NutrIber|26,376|2,435|209|29,020|54,527|0.48|
-|2007|QualityCourses|-|16,064|60,924|76,988|16,419|4.69|
+|Año|Proyecto|VB LOC|HTML LOC|Otros LOC|Total LOC|Comentarios|Ratio código/comentarios|Páginas código|Páginas comentarios|
+|-|-|-|-|-|-|-|-|-|-|
+|1997|pySigHor|1,916|-|672|2,588|183|10.47|43|3
+|1997|HerramientasFinancieras V1|6,888|4,823|109|11,820|1,381|4.99|197|23
+|1999|HerramientasFinancieras V2|7,281|-|19|7,300|990|7.35|122|17
+|2003|NutrIber|26,376|2,435|209|29,020|54,527|0.48|484|909
+|2007|QualityCourses|-|16,064|60,924|76,988|16,419|4.69|1283|274
 
 Notas:
 
-- En "Otros LOC" para QualityCourses se incluye principalmente JavaScript (43,617 líneas) y otras tecnologías
-- El ratio código/comentarios es calculado dividiendo el total de líneas de código entre el número de comentarios
-- Un ratio menor que 1 (como en NutrIber) indica más comentarios que código
-- Un ratio mayor indica más código que comentarios
+- En "Otros LOC" para QualityCourses se incluye principalmente JavaScript (43,617 líneas) y otras tecnologías.
+- El ratio código/comentarios es calculado dividiendo el total de líneas de código entre el número de comentarios.
+- Un ratio menor que 1 (como en NutrIber) indica más comentarios que código.
+- Un ratio mayor indica más código que comentarios.
+- Basados en 60 líneas por página.
