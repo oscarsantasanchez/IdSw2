@@ -40,8 +40,9 @@ La humanidad gracias a sus herramientas y, en particular, al conocimiento (cienc
 
 ||Capacidad cualitativa|Capacidad cuantitativa|
 |-|-|-|
-|**Ser humano**|Muy buena: reconocimiento de patrones, asociaciones, recursividad, …​|Muy mala: pequeña, errores por cansancio, desmotivación, …​ y muy lentos
-|**Máquina**|Muy mala: ningún computador superó la prueba de Turing (de momento)|Muy buena: sin errores y a toda velocidad
+|**Ser humano**|Muy buena: reconocimiento de patrones, asociaciones, recursividad, …​|Muy mala: pequeña, errores por cansancio, desmotivación, …​ y muy lentos|
+|**Máquina**|Muy mala: ningún computador superó la prueba de Turing (de momento)|Muy buena: sin errores y a toda velocidad|
+|***No obstante!!!***|*La brecha se ha reducido: [patrones](https://x.com/mfarajtabar/status/1844456880971858028?s=61) / [Turing](https://cacm.acm.org/news/beyond-turing-testing-llms-for-intelligence/)*|*La brecha se mantiene (o se amplifica!!!)*|
 
 ---
 
