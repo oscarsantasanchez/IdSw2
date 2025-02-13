@@ -100,6 +100,7 @@ La humanidad gracias a sus herramientas y, en particular, al conocimiento (cienc
 |Un sistema complejo está compuesto de subsistemas interrelacionados que a su vez tienen sus propios subsistemas y así hasta que se alcanza algún elemento del más bajo nivel.|La elección de qué componentes en un sistema son primitivos es relativamente arbitraria y suele estar a discreción del observador del sistema|Las intra-conexiones de componentes son más fuertes que las inter-conexiones de componentes. |Los sistemas jerárquicos se componen generalmente de sólo unos pocos tipos diferentes de subsistemas en varias combinaciones y órdenes. |Un sistema complejo que funciona invariablemente se encuentra que ha evolucionado a partir de un sistema sencillo que funcionó. 
 |Los niveles de su jerarquía representan los diferentes niveles de abstracción cada uno construido sobre otro y cada uno comprensible por sí mismo.|.|Este hecho tiene el efecto de separar los componentes con dinámica de alta frecuencia (involucrando la interacción entre componentes) de los de dinámica de baja frecuencia. |Nos encontramos con una gran similitud en la forma de mecanismos compartidos unificando esta vasta jerarquía.|Un sistema complejo diseñado desde cero no funciona y no puede ser remendado para hacer que funcione. 
 |En cada nivel de abstracción, encontramos una colección de elementos que colaboran para proveer servicios a niveles superiores|.|Hay una clara separación de asuntos entre las partes de diferentes niveles de abstracción|.|Hay que comenzar de nuevo, a partir de un sistema sencillo de trabajo
+|Ej.: El ejército|Ej.: Un mapa<br>Para un geógrafo político la unidad primitiva sería el país.<br>Para un urbanista, el barrio o distrito.<br>Para un arquitecto, el edificio o parcela.<br>Para un diseñador de interiores, la habitación.|En un hospital moderno: área de quirófanos, recepción, área de urgencias.|Sistema circulatorio en diferentes especies. Aunque cada especie ha evolucionado de manera diferente, el patrón básico se repite: un sistema de bombeo central que distribuye nutrientes y oxígeno a través de una red de conductos.|Ford modelo T vs Tucker Automobile|
 
 </div>
 
@@ -107,23 +108,15 @@ La humanidad gracias a sus herramientas y, en particular, al conocimiento (cienc
 
 ### Software & Sistemas complejos I
 
-#### Abstracción
-
-- “Proceso mental de extracción de las características esenciales de algo, ignorando los detalles superfluos” [Booch]
-- Proporciona límites conceptuales claramente definidos.
-- Es subjetiva.
-- Separa el comportamiento esencial de un objeto de su implantación.
-- Es paralela al vocabulario del dominio.
-
-#### Encapsulación
-
-- “Proceso por el que se ocultan los detalles del soporte de las características esenciales de una abstracción” [Booch]
-- Proporciona barreras explícitas entre abstracciones ⇒ Conduce a una clara separación de asuntos.
-- ∴ Podremos cambiar los soportes de las características de una abstracción sin afectar a quienes la utilicen.
+|Abstracción||
+|-|-|
+|“Proceso mental de extracción de las características esenciales de algo, ignorando los detalles superfluos”<br><br><div align=right>*Booch*</div>|- Proporciona límites conceptuales claramente definidos.<br> - Es subjetiva.<br> - Separa el comportamiento esencial de un objeto de su implantación.<br> - Es paralela al vocabulario del dominio.|
+|**Encapsulación**||
+|“Proceso por el que se ocultan los detalles del soporte de las características esenciales de una abstracción”<br><br><div align=right>*Booch*</div>|- Proporciona barreras explícitas entre abstracciones ⇒ Conduce a una clara separación de asuntos.<br>- ∴ Podremos cambiar los soportes de las características de una abstracción sin afectar a quienes la utilicen.|
 
 #### Abstracción & Encapsulación
 
-Todo aquello que no sea necesario dar a conocer, no se debe dar a conocer.
+Todo aquello que no sea necesario dar a conocer, **no se debe dar a conocer**.
 
 <div align=center>
 
@@ -133,10 +126,10 @@ Todo aquello que no sea necesario dar a conocer, no se debe dar a conocer.
 
 Entonces:
 
-- La abstracción debe preceder a las decisiones de implantación.
-- Ninguna parte de un sistema complejo debe depender de detalles internos de otra parte.
-- **Interfaz**: vista exterior. Único lugar donde establecemos las suposiciones que puede hacer un cliente.
-- **Implementación**: Mecanismo para conseguir el comportamiento deseado.
+1. La abstracción debe preceder a las decisiones de implantación.
+1. Ninguna parte de un sistema complejo debe depender de detalles internos de otra parte.
+1. **Interfaz**: vista exterior. Único lugar donde establecemos las suposiciones que puede hacer un cliente.
+1. **Implementación**: Mecanismo para conseguir el comportamiento deseado.
 
 #### Modularidad
 
@@ -146,7 +139,7 @@ Entonces:
 
 |Acoplamiento|Cohesión|
 |-|-|
-|El acoplamiento “[...] es la medida de fuerza de la asociación establecida por una conexión entre un módulo -elemento- y otro. El acoplamiento fuerte complica un sistema porque los módulos son más difíciles de comprender, cambiar o corregir por sí mismos si están muy interrelacionados con otros módulos” [Booch, 96]. |“La cohesión mide el grado de conectividad entre los elementos de un solo módulo.” [Booch, 96] |
+|"*El acoplamiento “[...] es la medida de fuerza de la asociación establecida por una conexión entre un módulo -elemento- y otro. El acoplamiento fuerte complica un sistema porque los módulos son más difíciles de comprender, cambiar o corregir por sí mismos si están muy interrelacionados con otros módulos*” [Booch, 96]. |“*La cohesión mide el grado de conectividad entre los elementos de un solo módulo.*” [Booch, 96] |
 |Por tanto, hay que minimizar las dependencias entre módulos|Por tanto, un módulo cohesivo debe tener significado propio por sí mismo agrupando abstracciones lógicamente relacionadas|
 
 ---
@@ -172,6 +165,8 @@ Organización de elementos en niveles de responsabilidad, clasificación o compo
 
 ### Software & Sistemas complejos II
 
+¿Permite el software modelar las características de los sistemas complejos?
+
 <div align=center>
 
 |Estructura jerárquica|Elementos primitivos relativos|Separación de asuntos|Patrones comunes|Formas intermedias estables|
@@ -179,3 +174,5 @@ Organización de elementos en niveles de responsabilidad, clasificación o compo
 |Gracias a sus jerarquías de herencia, composición, paquetes con clases con atributos y métodos, métodos con sentencias, sentencias con expresiones, …​|Gracias a sus tipos primitivos dependiendo del lenguaje (enteros, cadena de caracteres?, fechas?, …) y los definidos por el usuario|Gracias a la encapsulación y modularidad|Gracias a algunos métodos de clases que corresponden al paso de mensajes a objetos|Gracias a las metodologías iterativas o por culpa de nuevas tecnologías o nuevas necesidades|
 
 </div>
+
+> [Proyectos de software](proyectosSoftware.md)
