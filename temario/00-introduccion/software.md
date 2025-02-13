@@ -107,23 +107,15 @@ La humanidad gracias a sus herramientas y, en particular, al conocimiento (cienc
 
 ### Software & Sistemas complejos I
 
-#### Abstracción
-
-- “Proceso mental de extracción de las características esenciales de algo, ignorando los detalles superfluos” [Booch]
-- Proporciona límites conceptuales claramente definidos.
-- Es subjetiva.
-- Separa el comportamiento esencial de un objeto de su implantación.
-- Es paralela al vocabulario del dominio.
-
-#### Encapsulación
-
-- “Proceso por el que se ocultan los detalles del soporte de las características esenciales de una abstracción” [Booch]
-- Proporciona barreras explícitas entre abstracciones ⇒ Conduce a una clara separación de asuntos.
-- ∴ Podremos cambiar los soportes de las características de una abstracción sin afectar a quienes la utilicen.
+|Abstracción||
+|-|-|
+|“Proceso mental de extracción de las características esenciales de algo, ignorando los detalles superfluos”<br><br><div align=right>*Booch*</div>|- Proporciona límites conceptuales claramente definidos.<br> - Es subjetiva.<br> - Separa el comportamiento esencial de un objeto de su implantación.<br> - Es paralela al vocabulario del dominio.|
+|**Encapsulación**||
+|“Proceso por el que se ocultan los detalles del soporte de las características esenciales de una abstracción”<br><br><div align=right>*Booch*</div>|- Proporciona barreras explícitas entre abstracciones ⇒ Conduce a una clara separación de asuntos.<br>- ∴ Podremos cambiar los soportes de las características de una abstracción sin afectar a quienes la utilicen.|
 
 #### Abstracción & Encapsulación
 
-Todo aquello que no sea necesario dar a conocer, no se debe dar a conocer.
+Todo aquello que no sea necesario dar a conocer, **no se debe dar a conocer**.
 
 <div align=center>
 
@@ -133,10 +125,10 @@ Todo aquello que no sea necesario dar a conocer, no se debe dar a conocer.
 
 Entonces:
 
-- La abstracción debe preceder a las decisiones de implantación.
-- Ninguna parte de un sistema complejo debe depender de detalles internos de otra parte.
-- **Interfaz**: vista exterior. Único lugar donde establecemos las suposiciones que puede hacer un cliente.
-- **Implementación**: Mecanismo para conseguir el comportamiento deseado.
+1. La abstracción debe preceder a las decisiones de implantación.
+1. Ninguna parte de un sistema complejo debe depender de detalles internos de otra parte.
+1. **Interfaz**: vista exterior. Único lugar donde establecemos las suposiciones que puede hacer un cliente.
+1. **Implementación**: Mecanismo para conseguir el comportamiento deseado.
 
 #### Modularidad
 
@@ -146,7 +138,7 @@ Entonces:
 
 |Acoplamiento|Cohesión|
 |-|-|
-|El acoplamiento “[...] es la medida de fuerza de la asociación establecida por una conexión entre un módulo -elemento- y otro. El acoplamiento fuerte complica un sistema porque los módulos son más difíciles de comprender, cambiar o corregir por sí mismos si están muy interrelacionados con otros módulos” [Booch, 96]. |“La cohesión mide el grado de conectividad entre los elementos de un solo módulo.” [Booch, 96] |
+|"*El acoplamiento “[...] es la medida de fuerza de la asociación establecida por una conexión entre un módulo -elemento- y otro. El acoplamiento fuerte complica un sistema porque los módulos son más difíciles de comprender, cambiar o corregir por sí mismos si están muy interrelacionados con otros módulos*” [Booch, 96]. |“*La cohesión mide el grado de conectividad entre los elementos de un solo módulo.*” [Booch, 96] |
 |Por tanto, hay que minimizar las dependencias entre módulos|Por tanto, un módulo cohesivo debe tener significado propio por sí mismo agrupando abstracciones lógicamente relacionadas|
 
 ---
@@ -172,15 +164,12 @@ Organización de elementos en niveles de responsabilidad, clasificación o compo
 
 ### Software & Sistemas complejos II
 
+¿Permite el software modelar las características de los sistemas complejos?
+
 <div align=center>
 
 |Estructura jerárquica|Elementos primitivos relativos|Separación de asuntos|Patrones comunes|Formas intermedias estables|
 |-|-|-|-|-|
 |Gracias a sus jerarquías de herencia, composición, paquetes con clases con atributos y métodos, métodos con sentencias, sentencias con expresiones, …​|Gracias a sus tipos primitivos dependiendo del lenguaje (enteros, cadena de caracteres?, fechas?, …) y los definidos por el usuario|Gracias a la encapsulación y modularidad|Gracias a algunos métodos de clases que corresponden al paso de mensajes a objetos|Gracias a las metodologías iterativas o por culpa de nuevas tecnologías o nuevas necesidades|
-
----
-
-|![](/images/modelosUML/softwareSistemaComplejo.svg)
-|-
 
 </div>
