@@ -163,3 +163,5 @@ Cuando un cambio en el software causa **errores inesperados en partes aparenteme
 |-|-|
 |En un sistema de comercio electrónico, al modificar el cálculo de descuentos en el carrito de compras...|Inesperadamente fallan: el sistema de notificaciones por email, el proceso de generación de facturas y el módulo de sincronización con el inventario.
 |Al intentar corregir estos errores...|Surgen nuevos problemas en el sistema de pagos y en el módulo de envíos, haciendo que los gerentes duden de realizar cualquier modificación por temor a "romper" más funcionalidades.
+
+> [Crisis del software](crisisSoftware.md)
