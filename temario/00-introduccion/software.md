@@ -178,4 +178,9 @@ Organización de elementos en niveles de responsabilidad, clasificación o compo
 |-|-|-|-|-|
 |Gracias a sus jerarquías de herencia, composición, paquetes con clases con atributos y métodos, métodos con sentencias, sentencias con expresiones, …​|Gracias a sus tipos primitivos dependiendo del lenguaje (enteros, cadena de caracteres?, fechas?, …) y los definidos por el usuario|Gracias a la encapsulación y modularidad|Gracias a algunos métodos de clases que corresponden al paso de mensajes a objetos|Gracias a las metodologías iterativas o por culpa de nuevas tecnologías o nuevas necesidades|
 
+---
+
+|![](/images/modelosUML/softwareSistemaComplejo.svg)
+|-
+
 </div>
