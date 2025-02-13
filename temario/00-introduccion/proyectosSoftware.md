@@ -40,11 +40,11 @@ Y esto es un aprendizaje valioso, porque no hay posibilidades de especulación. 
 
 #### Gestión
 
+> **Eliminación del ámbito** es una de las decisiones más importantes en la gestión del proyecto
+
 Intentando no hacer demasiado mantenemos nuestra capacidad de producir la **calidad** requerida en un **tiempo** determinado.
 
 Si se gestiona activamente el ámbito, se puede proporcionar a los directores de proyecto y clientes control sobre el **coste**, **calidad** y **tiempo**.
-
-> **Eliminación del ámbito** es una de las decisiones más importantes en la gestión del proyecto
 
 Si el tiempo está limitado por la fecha de lanzamiento de una versión, hay siempre algo que podemos diferir a la siguiente versión.
 
