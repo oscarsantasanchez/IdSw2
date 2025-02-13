@@ -176,9 +176,13 @@ Podría enumerar todas las cualidades que noto en un código limpio, pero hay un
 ||||
 |-|-|-|
 |**[Naturaleza del software](software.md)**|Sistemas, sistemas complejos, software & sistemas complejos: A/E/M/J|
+||[Proyectos de software](proyectosSoftware.md)
+||[Crisis del software](crisisSoftware.md)
+||[Proceso de desarrollo de software](procesoDesarrolloSoftware.md)
 |**Diseño**|Modelo del Dominio, Gestión de Dependencias, DRY, YAGNI, nombrado, comentarios, etc.|Línea|
 |**Diseño Modular**|Cohesión, Acoplamiento, Granularidad, …​, Smell Codes, …​, Modelo, Vista, Controlador, etc.|Clase y Método|
 |**Diseño orientado a objetos**|Principios Open/Close, Sustitución de Liskov, Patrón Método Plantilla, Inversión de Dependencias, Inversión de Control, Inyección de Dependencias, etc.|Jerarquías de Clasificación|
 |Patrones de diseño|Creacionales, estructurales, de comportamiento, Object Value, etc.|Prácticas recurrentes|
 |Arquitecturas MVC|Modelo/Vista/Controlador (MVP, MVVM, …​), Data Access Object, Arquitecturas Ágiles, Hexagonal Architecture , Clean Architecture, Onion Architecture|Paquetes|
 |Arquitectura del Software|Actores, documentación 4+1 vistas, principios de cohesión y acoplamiento de paquetes|
+
