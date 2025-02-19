@@ -5,5 +5,6 @@
   - [Proyectos de software](temario/00-introduccion/proyectosSoftware.md)
   - [Crisis del software](temario/00-introduccion/crisisSoftware.md)
   - [Proceso de desarrollo del software](temario/00-introduccion/procesoDesarrolloSoftware.md)
+- [Diseño](temario/01-diseño/README.md)
 
 ## Retos
